@@ -1,0 +1,48 @@
+//COLORS
+
+$dark-green: rgb(17,100,0);
+
+//FONTS
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anonymous+Pro|Antic|Anton|Assistant:300,400,600|Athiti:300,400,500|BenchNine|Chathura:300,400|Cutive+Mono|David+Libre|Droid+Serif|EB+Garamond|Economica|Exo:300,400,500,700|Fira+Mono:400,500|Fira+Sans+Condensed:300,400,500|Headland+One|IM+Fell+DW+Pica|IM+Fell+English|Lekton|Maven+Pro:400,500|Merriweather:300,400|Miriam+Libre|Montserrat+Alternates:300,400,500|Nixie+One|Open+Sans+Condensed:300|PT+Sans|PT+Serif|Pavanam|Philosopher|Playfair+Display|Rasa|Roboto+Condensed:300,400|Scope+One|Share+Tech|Source+Sans+Pro:300,400|Source+Serif+Pro|Special+Elite|Suez+One|Unica+One');
+//@include font-face(Samplino, fonts/Samplino);
+
+//--sans
+$sans-roboto: 'Roboto Condensed', sans-serif;
+$sans-sourcepro: 'Source Sans Pro', sans-serif;
+$sans-pt: 'PT Sans', sans-serif;
+$sans-pavanam: 'Pavanam', sans-serif;
+$sans-lekton: 'Lekton', sans-serif;
+$sans-openc: 'Open Sans Condensed', sans-serif;
+$sans-anton: 'Anton', sans-serif;
+$sans-exo: 'Exo', sans-serif;
+$sans-maven: 'Maven Pro', sans-serif;
+$sans-bench9: 'BenchNine', sans-serif;
+$sans-philosopher: 'Philosopher', sans-serif;
+$sans-economica: 'Economica', sans-serif;
+$sans-antic: 'Antic', sans-serif;
+$sans-firac: 'Fira Sans Condensed', sans-serif;
+$sans-chathura: 'Chathura', sans-serif;
+$sans-montsalt: 'Montserrat Alternates', sans-serif;
+$sans-assistant: 'Assistant', sans-serif;
+$sans-sharetec: 'Share Tech', sans-serif;
+$sans-miriam: 'Miriam Libre', sans-serif;
+$sans-athiti: 'Athiti', sans-serif;
+
+//--serif
+$serif-merriweather: 'Merriweather', serif;
+$serif-droid: 'Droid Serif', serif;
+$serif-playfair: 'Playfair Display', serif;
+$serif-pt: 'PT Serif', serif;
+$serif-anonymous: 'Anonymous Pro', serif;
+$serif-david: 'David Libre', serif;
+$serif-rasa: 'Rasa', serif;
+$serif-dwpica: 'IM Fell DW Pica', serif;
+$serif-suez1: 'Suez One', serif;
+$serif-firamono: 'Fira Mono', serif;
+$serif-scope1: 'Scope One', serif;
+$serif-ebgaramond: 'EB Garamond', serif;
+$serif-sourcepro: 'Source Serif Pro', serif;
+$serif-cutive: 'Cutive Mono', serif;
+$serif-english: 'IM Fell English', serif;
+$serif-headland1: 'Headland One', serif;

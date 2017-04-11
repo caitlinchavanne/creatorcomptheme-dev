@@ -16,10 +16,16 @@
         
         <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>-->
         
+       
+        
         
         <title><?php wp_title(); ?></title>
         
-        <?php wp_head(); ?>
+        <?php 
+        
+        wp_head();
+       
+        ?>
         
     </head>
 

@@ -1,0 +1,49 @@
+body.about {
+    
+    @include dp(inline-block,relative);
+    
+    @include wh(100%,100%);
+    
+    @include tl(0,0);
+    
+    @include mp(0,0);
+    
+    main#main {
+        
+        display: inline-block;
+
+        margin: 10px 20px;
+
+        div.titlentag {
+
+            border: 1px solid black;
+
+            display: inline-block;
+            
+            position: relative;
+
+            padding: 5px;
+
+            text-align: justify;
+
+            max-width: 450px;
+
+            .title {
+                font-size: 28px;
+                @include mp(0,0);
+                @include dp(inline-block,relative);
+                float: left;
+                bottom: 0px;
+                width: 100%;
+                text-align: center;
+            }
+            .tag {
+                font-size: 15px;
+                @include mp(0,0);
+                @include dp(inline-block,relative);
+                float: left;
+                bottom: 0px;
+            }
+        }
+    }
+}

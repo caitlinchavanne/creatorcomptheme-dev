@@ -1,0 +1,33 @@
+
+// display & position
+@mixin dp($d,$p) {
+    display: $d;
+    position: $p;
+}
+// top & left
+@mixin tl($t,$l) {
+    top: $t;
+    left: $l;
+}
+// width & height
+@mixin wh($w,$h) {
+    width: $w;
+    height: $h;
+}
+// margins & padding
+@mixin mp($m,$p) {
+    margin: $m;
+    padding: $p;
+}
+// font/text settings - color, size, style, weight, spacing, line height, align, transform
+@mixin text($color,$fontfam,$fontsize,$fontstyle,$fontweight,$letterspacing,$lineheight,$textalign,$texttransform) {
+    color: $color;
+    font-family: $fontfam;
+    font-size: $fontsize;
+    font-style: $fontstyle;
+    font-weight: $fontweight;
+    letter-spacing: $letterspacing;
+    line-height: $lineheight;
+    text-align: $textalign;
+    text-transform: $texttransform;
+}

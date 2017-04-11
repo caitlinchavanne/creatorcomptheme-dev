@@ -1,0 +1,19 @@
+//external -- bootstrap, fontawesome, jquery-ui
+@import "external/fontawesome-scss/font-awesome";
+
+
+//variables, mixins, class rules, and global styles
+@import "common/variables";
+@import "common/mixins";
+@import "common/classes";
+@import "common/global";
+
+// template styles - header, footer, etc
+@import "templates/header";
+@import "templates/footer";
+
+//individual page styles
+@import "pages/home";
+@import "pages/about";
+@import "pages/archive";
+@import "pages/disclaimer";

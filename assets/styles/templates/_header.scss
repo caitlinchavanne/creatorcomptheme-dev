@@ -1,0 +1,69 @@
+header#header {
+    
+    div#navbar-container {
+        
+        @include dp(inline-block,relative);
+        
+        @include wh(100%,50px);
+        
+        @include tl(0,0);
+        
+        @include mp(0,0);
+        
+        div#navbar-head {
+            
+            display: inline-block;
+            
+            padding: 3px;
+            
+            button#nav-toggle {
+                
+                span#nav-toggle-icon {}
+            }
+            a#logo-link.navbar-brand {
+                
+                display: inline-block;
+                
+                
+                img#logo-image {
+                    
+                    display: inline-block;
+                }
+            }
+        }
+        div#navbar-main {
+            
+            display: inline-block;
+            
+            position: relative;
+            
+            margin: 0px;
+            
+            min-height: 50px;
+            
+            nav#primary-nav {
+                
+                display: inline-block;
+                
+                div.widget_nav_menu {
+                    
+                    div.menu-primary-container {
+                        
+                        ul#menu-primary {
+                            
+                            li.menu-item {
+                                
+                                display: inline-block;
+                                
+                                a {
+                                    
+                                    //@include text($color,$fontfam,$fontsize,$fontstyle,$fontweight,$letterspacing,$lineheight,$textalign,$texttransform);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
